@@ -6,14 +6,14 @@ function Joke(props) {
     <div>
       <h3
         style={{
-          display: props.joke.question ? "block" : "none",
+          display: props.question ? "block" : "none",
           color: "purple",
         }}
       >
-        Question: {props.joke.question}
+        Question: {props.question}
       </h3>
-      <h4 style={{ color: props.joke.question ? "green" : "red" }}>
-        Punchline: {props.joke.punchline}
+      <h4 style={{ color: props.question ? "green" : "red" }}>
+        Punchline: {props.punchline}
       </h4>
       <br />
     </div>
